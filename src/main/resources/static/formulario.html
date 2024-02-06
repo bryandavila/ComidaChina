@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Esta es mi primera página html -->
+<html>
+    <head>
+        <title>Restaurante Xin Tian Di</title>
+        <meta charset="UTF-8"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="encabezado">
+            <nav class="navegacion">
+                <a class="logo nav-link" href="index.html">Restaurante Xin Tian Di</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="pagina7.html">&triangleleft;</a></li> 
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="pagina2.html">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="audio.html">Audio</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="video.html">Video</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="iframe.html">iFrame</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="formulario.html">Form</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside>
+            <h2>Registro para membresia</h2>
+            <img width="280" height="280" src="img/ID Card-amico.png" alt=""/>
+        </aside>
+        <section>
+            <h2>Favor brindarnos los datos</h2>
+            <article>
+                <h2>Informacion de registro para membresia</h2>
+                <figure>
+                    <form action="/cliente/agregar" method="post">
+                        
+                        Nombre completo: <input type="text" name="nombre" value="" size="40" /><br>
+                        Numero de cedula: <input type="text" name="cedula" value="" size="15" /><br>
+                        Telefono: <input type="number" name="telefono" value=""/><br>
+                        Correo: <input type="text" name="correo" value="" size="40" /><br>
+                        Direccion: <input type="text" name="direccion" value="" size="50" /><br>
+                        Edad: <input type="number" name="edad" value="" /><br>
+                        
+                        <input type="submit" value="Enviar" />
+                        
+                    </form>
+                    <figcaption>No revele informacion sensible</figcaption>
+                </figure>
+            </article>    
+        </section>
+        <footer>
+            Derechos Reservados &COPY; Restaurante Xin Tian Di 2024 
+        </footer>
+    </body>
+</html>
